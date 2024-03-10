@@ -2,18 +2,28 @@ import React from "react";
 import Header from "./Header";
 import About from "./About";
 import Tech from "./Tech";
+import Education from "./Education";
+import Work from "./Work";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-6">
-      <section className="h-[100vh]">
-        <Header />
-        <About />
-      </section>
-      <section>
-        <Tech />
-      </section>
-    </div>
+    <>
+      <Header />
+      <div className="container mx-auto px-6">
+        <section>
+          <About />
+        </section>
+        <section>
+          <Tech />
+        </section>
+        <section>
+          <Education />
+        </section>
+        <section>
+          <Work />
+        </section>
+      </div>
+    </>
   );
 };
 
