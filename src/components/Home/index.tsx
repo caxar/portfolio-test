@@ -10,18 +10,10 @@ const Home = () => {
     <>
       <Header />
       <div className="container mx-auto px-6">
-        <section>
-          <About />
-        </section>
-        <section>
-          <Tech />
-        </section>
-        <section>
-          <Education />
-        </section>
-        <section>
-          <Work />
-        </section>
+        <About />
+        <Tech />
+        <Education />
+        <Work />
       </div>
     </>
   );

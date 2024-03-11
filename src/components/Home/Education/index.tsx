@@ -9,9 +9,12 @@ const Education = () => {
         <div className="education-title text-[50px] font-bold mb-7">
           Образование
         </div>
-        <div className="education-block flex gap-5">
+        <div className="education-subtitle text-[25px] mb-5 text-black_color">
+          const EducationData =
+        </div>
+        <div className="education-block flex justify-between gap-5">
           {/* 1 */}
-          <div className="education-block__item flex items-center gap-5 bg-block_color rounded-xl py-3 px-4">
+          <div className="education-block__item flex w-[100%] justify-center items-center gap-5 bg-block_color rounded-xl py-5">
             <div className="education-item__img w-[90px]">
               <img src={IMAGES.educ1} alt="СЕВКИТИП логотип" />
             </div>
@@ -20,16 +23,20 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВКИТИП
                 </div>
-                <div className="education-item__year">2014-2017</div>
+                <div className="education-item__year font-bold">2014-2017</div>
               </div>
               <div className="education-item__skill">
-                <div className="text-[17px]">Наладчик компьютерных сетей</div>
-                <div className="text-purple_color">среднее образование</div>
+                <div className="text-[17px] font-bold">
+                  Наладчик компьютерных сетей
+                </div>
+                <div className="text-purple_color text-[17px]">
+                  среднее образование
+                </div>
               </div>
             </div>
           </div>
           {/* 2 */}
-          <div className="education-block__item flex items-center gap-5 bg-block_color rounded-xl py-3 px-4">
+          <div className="education-block__item w-[100%] justify-center flex items-center gap-5 bg-block_color rounded-xl py-3 px-4">
             <div className="education-item__img w-[65px]">
               <img src={IMAGES.educ2} alt="СЕВГУ логотип" />
             </div>
@@ -38,18 +45,18 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВГУ
                 </div>
-                <div className="education-item__year">2017-2022</div>
+                <div className="education-item__year font-bold">2017-2022</div>
               </div>
               <div className="education-item__skill">
-                <div className="text-[17px]">
+                <div className="text-[17px] font-bold">
                   Информатика и вычислительная техника
                 </div>
-                <div className="text-purple_color">бакалавриат</div>
+                <div className="text-purple_color text-[17px]">бакалавриат</div>
               </div>
             </div>
           </div>
           {/* 3 */}
-          <div className="education-block__item flex items-center gap-5 bg-block_color rounded-xl py-3 px-4">
+          <div className="education-block__item w-[100%] justify-center flex items-center gap-5 bg-block_color rounded-xl py-3 px-4">
             <div className="education-item__img w-[65px]">
               <img src={IMAGES.educ2} alt="СЕВГУ логотип" />
             </div>
@@ -58,11 +65,15 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВГУ
                 </div>
-                <div className="education-item__year">2022-2024</div>
+                <div className="education-item__year font-bold">2022-2024</div>
               </div>
               <div className="education-item__skill">
-                <div className="text-[17px]">Управление умным городом</div>
-                <div className="text-purple_color">магистратура</div>
+                <div className="text-[17px] font-bold">
+                  Управление умным городом
+                </div>
+                <div className="text-purple_color text-[17px]">
+                  магистратура
+                </div>
               </div>
             </div>
           </div>
