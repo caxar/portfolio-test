@@ -37,7 +37,7 @@ const Tech = () => {
           {/* 1 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out  ${
      techTitle == "cms" ? "bg-black_color" : ""
    }`}
           >
@@ -62,7 +62,7 @@ const Tech = () => {
           {/* 2 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "framework" ? "bg-black_color" : ""
    }`}
           >
@@ -86,7 +86,7 @@ const Tech = () => {
           {/* 3 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "framework" ? "bg-black_color" : ""
    }`}
           >
@@ -113,7 +113,7 @@ const Tech = () => {
           {/* 4 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "library" ? "bg-black_color" : ""
    }`}
           >
@@ -142,7 +142,7 @@ const Tech = () => {
           {/* 5 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "control" ? "bg-black_color" : ""
    }`}
           >
@@ -169,7 +169,7 @@ const Tech = () => {
           {/* 6*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "language" ? "bg-black_color" : ""
    }`}
           >
@@ -201,7 +201,7 @@ const Tech = () => {
           {/* 7*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "Version Contro" ? "bg-black_color" : ""
    }`}
           >
@@ -282,7 +282,7 @@ const Tech = () => {
           {/* 8*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "styling" ? "bg-black_color" : ""
    }`}
           >
@@ -305,7 +305,7 @@ const Tech = () => {
           {/* 9*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "language" ? "bg-black_color" : ""
    }`}
           >
@@ -341,7 +341,7 @@ const Tech = () => {
           {/* 10*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "quality" ? "bg-black_color" : ""
    }`}
             //  quality
@@ -372,7 +372,7 @@ const Tech = () => {
           {/* 11*/}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "language" ? "bg-black_color" : ""
    }`}
           >
@@ -402,7 +402,7 @@ const Tech = () => {
           {/* 12 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out
    ${techTitle == "database" ? "bg-black_color" : ""}`}
           >
             <div className="block-item__img">
@@ -420,7 +420,7 @@ const Tech = () => {
           {/* 13 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out
    ${techTitle == "database" ? "bg-black_color" : ""}`}
           >
             <div className="block-item__img">
@@ -452,7 +452,7 @@ const Tech = () => {
           {/* 14 */}
           <div
             className={`middle-block__item  h-[130px] bg-block_color
-   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
+   rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out ${
      techTitle == "styling" ? "bg-black_color" : ""
    }`}
           >
@@ -473,7 +473,7 @@ const Tech = () => {
             <div className="block-item__text text-[18px] font-bold">БЭМ</div>
           </div>
         </div>
-        <div className="tech-wrapper__filter mt-20">
+        <div className="tech-wrapper__filter mt-20 flex justify-between">
           <div className="tech-wrapper__text  text-[25px] text-black_color">
             TechData.filter("
             <button
@@ -484,9 +484,13 @@ const Tech = () => {
             </button>
             ")
           </div>
-          {/* <button className="tecg-wrapper__btn" onClick={() => changeText()}>
-            {cont[index]}
-          </button> */}
+          <div className="flex gap-5 text-black_color text-[23px]">
+            <span className="text-[30px]">/**</span>
+            {context?.map((item) => (
+              <div className="wrapper-bg__item">_{item}</div>
+            ))}
+            ;<span className="text-[30px]">**/</span>
+          </div>
         </div>
       </div>
     </div>
