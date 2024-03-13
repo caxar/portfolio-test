@@ -23,11 +23,17 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВКИТИП
                 </div>
-                <div className="education-item__year font-bold">2014-2017</div>
+                <div className="education-item__year font-bold text-black_color">
+                  2014-2017
+                </div>
               </div>
               <div className="education-item__skill">
                 <div className="text-[17px] font-bold">
-                  Наладчик компьютерных сетей
+                  <div>Наладчик компьютерных сетей</div>
+                  <div>
+                    классификатор:{" "}
+                    <span className="text-black_color">09.01.02</span>
+                  </div>
                 </div>
                 <div className="text-purple_color text-[17px]">
                   среднее образование
@@ -45,11 +51,17 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВГУ
                 </div>
-                <div className="education-item__year font-bold">2017-2022</div>
+                <div className="education-item__year font-bold text-black_color">
+                  2017-2022
+                </div>
               </div>
               <div className="education-item__skill">
                 <div className="text-[17px] font-bold">
-                  Информатика и вычислительная техника
+                  <div>Информатика и вычислительная техника</div>
+                  <div>
+                    классификатор:{" "}
+                    <span className="text-black_color">09.03.01</span>
+                  </div>
                 </div>
                 <div className="text-purple_color text-[17px]">бакалавриат</div>
               </div>
@@ -65,11 +77,17 @@ const Education = () => {
                 <div className="text-[18px] font-bold text-green_color">
                   СЕВГУ
                 </div>
-                <div className="education-item__year font-bold">2022-2024</div>
+                <div className="education-item__year font-bold text-black_color">
+                  2022-2024
+                </div>
               </div>
               <div className="education-item__skill">
                 <div className="text-[17px] font-bold">
-                  Управление умным городом
+                  <div>Управление умным городом </div>
+                  <div>
+                    классификатор:{" "}
+                    <span className="text-black_color">09.04.04</span>
+                  </div>
                 </div>
                 <div className="text-purple_color text-[17px]">
                   магистратура

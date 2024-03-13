@@ -18,8 +18,8 @@ const Work = () => {
             </div>
           ))}
         </div>
-        <div className="task-title text-[25px] mb-5 text-black_color">
-          // Задачи которые я решал
+        <div className="task-title text-[25px] mb-5 text-black_color animate-pulse">
+          // Так же ещё есть что рассказать ;)
         </div>
         {/* <div className="tasks-block">
           {dataTasks.map((item) => (
