@@ -1,5 +1,6 @@
 import React from "react";
 import { dataLink } from "../../../utils/data";
+import { nanoid } from "nanoid";
 
 const Header = () => {
   const [scrollTop, setScrollTop] = React.useState(0);
@@ -30,7 +31,10 @@ const Header = () => {
         <nav className="header-wrapper__menu">
           <ul className="flex items-center gap-4 text-[18px]">
             {dataLink?.map((item) => (
-              <li className="menu-item cursor-pointer font-bold py-1 px-1 transition ease-in-out hover:bg-block_color">
+              <li
+                className="menu-item cursor-pointer font-bold py-1 px-1 transition ease-in-out hover:bg-block_color"
+                key={nanoid()}
+              >
                 <a href={`#${item?.link}`}>
                   _{item?.title}
                   <span className="text-purple_color font-bold"> ()</span>
