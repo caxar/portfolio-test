@@ -32,11 +32,11 @@ export const dataTech = [
     code: "framework",
     img: "tech2",
   },
-  {
-    name: "Vue",
-    code: "framework",
-    img: "tech3",
-  },
+  // {
+  //   name: "Vue",
+  //   code: "framework",
+  //   img: "tech3",
+  // },
   {
     name: "React",
     code: "library",
@@ -92,4 +92,40 @@ export const dataTech = [
     code: "styling",
     img: "tech14",
   },
+  {
+    name: "Redux",
+    code: "library",
+    img: "tech15",
+  },
 ];
+
+export const dataExperience = [
+  {
+    text: "работаю системным администратором в фирме по продаже строительного и промышленного оборудования",
+  },
+  {
+    text: "являюсь действующем разработчиком интернет магазина на Yii2 и OpenCart",
+  },
+  {
+    text: "занимался настройкай и установкой камер видеонаблюдения Hikvision",
+  },
+  {
+    text: "разрабатываю сайты и темы на заказ",
+  },
+  {
+    text: "работаю в СевСтар на должности магистральщика оптических линий связей",
+  },
+];
+
+// export const dataTasks = [
+//   {
+//     text: "Производил настройку сети на Mikrotik",
+//   },
+//   {
+//     text: "Разработал индивидуальные темы для WordPress и Yii2",
+//   },
+
+//   {
+//     text: "",
+//   },
+// ];

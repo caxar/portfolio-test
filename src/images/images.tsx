@@ -1,4 +1,10 @@
-const IMAGES = {
+type StringValues<T> = T extends string ? T : never;
+
+type StringImages = {
+  [key: string]: string;
+};
+
+const IMAGES: StringImages = {
   // educ-svg
   educ1: new URL("./educ-1.png", import.meta.url).href,
   educ2: new URL("./educ-2.png", import.meta.url).href,
@@ -17,6 +23,7 @@ const IMAGES = {
   tech12: new URL("./tech-sql.svg", import.meta.url).href,
   tech13: new URL("./tech-pgsql.svg", import.meta.url).href,
   tech14: new URL("./tech-bem.svg", import.meta.url).href,
+  tech15: new URL("./tech-redux.svg", import.meta.url).href,
 };
 
 export default IMAGES;

@@ -47,7 +47,7 @@ const Tech = () => {
      }`}
             >
               <div className="block-item__img">
-                <img src={IMAGES[item.img]} alt={item.name} />
+                <img src={IMAGES[item?.img]} alt={item?.name} />
               </div>
               <div className="block-item__text text-[18px] font-bold">
                 {item?.name}
@@ -66,7 +66,7 @@ const Tech = () => {
             </button>
             ")
           </div>
-          <div className="flex gap-5 text-black_color text-[23px]">
+          <div className="flex gap-5 text-black_color text-[20px]">
             <span className="text-[30px]">/**</span>
             {context?.map((item) => (
               <div className="wrapper-bg__item" key={nanoid()}>
