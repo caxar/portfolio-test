@@ -6,10 +6,15 @@ import Education from "./Education";
 import Work from "./Work";
 import Contacts from "./Contacts";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const Home = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="container mx-auto px-6">
         <About />
         <Tech />

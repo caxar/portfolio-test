@@ -29,20 +29,20 @@ const Tech = () => {
   }, [index]);
 
   return (
-    <div className="tech py-[50px]" id="tech">
+    <div className="tech py-[50px]" id="tech" data-aos="fade-up">
       <div className="tech-wrapper">
-        <div className="tech-title text-[50px] text-grey_color font-bold mb-7">
+        <div className="tech-title text-[30px] text-grey_color font-bold mb-7 sm:text-[40px] lg:text-[50px]">
           Технологии которые я использую:
         </div>
-        <div className="tech-subtitle text-[25px] mb-5 text-black_color">
+        <div className="tech-subtitle text-[20px] mb-5 text-black_color sm:text-[25px]">
           const TechData =
         </div>
-        <div className="tech-block grid grid-cols-7 gap-4 flex-wrap">
+        <div className="tech-block grid grid-cols-2 gap-4 flex-wrap mb-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
           {dataTech?.map((item) => (
             <div
               key={nanoid()}
               className={`middle-block__item  h-[130px] bg-block_color
-     rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 transition ease-in-out  ${
+     rounded-xl py-3 px-4 flex flex-col items-center justify-center gap-3 ${
        techTitle == item?.code ? "!bg-black_color" : ""
      }`}
             >
@@ -55,8 +55,8 @@ const Tech = () => {
             </div>
           ))}
         </div>
-        <div className="tech-wrapper__filter mt-20 flex justify-between">
-          <div className="tech-wrapper__text  text-[25px] text-black_color">
+        <div className="tech-wrapper__filter flex justify-between">
+          <div className="tech-wrapper__text  text-[20px] text-black_color sm:text-[25px]">
             TechData.filter("
             <button
               className="tecg-wrapper__btn bg-block_color animate-pulse"
@@ -66,7 +66,7 @@ const Tech = () => {
             </button>
             ")
           </div>
-          <div className="flex gap-5 text-black_color text-[20px]">
+          <div className="gap-5 text-black_color text-[20px] hidden xl:flex">
             <span className="text-[30px]">/**</span>
             {context?.map((item) => (
               <div className="wrapper-bg__item" key={nanoid()}>
